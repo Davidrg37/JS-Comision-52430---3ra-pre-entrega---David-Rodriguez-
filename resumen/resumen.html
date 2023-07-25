@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../estilos.css">
+    <link rel="shortcut icon" href="../Imagen/Tira de cine.webp" type="image/x-icon">
+    <title> Resumen de Compra en MULTICINES </title>
+</head>
+<header>
+    <h1> MULTICINES </h1>
+    <p> Más que un cine, una forma de entretenimiento </p>
+</header>
+<body>
+<div>
+    <h2 class="resumen-subtitulo"> Acá verás el resumen de tu compra </h2>
+</div>
+<main class="resumen-entradas">
+    <div class="d-flex">
+        <div class="p-2 flex-fill barra1"> Seleccionaste la pelicula: </div>
+        <div class="p-2 flex-fill" id="part1"></div>
+    </div>
+    <div class="d-flex">
+        <div class="p-2 flex-fill barra1"> Seleccionaste la funcion de las: </div>
+        <div class="p-2 flex-fill" id="part2"></div>
+    </div>
+    <div class="d-flex">
+        <div class="p-2 flex-fill barra1"> Vas a comprar: </div>
+        <div class="p-2 flex-fill" id="part3"></div>
+    </div>
+    <div class="d-flex">
+        <div class="p-2 flex-fill barra1"> El total a pagar por entradas es: </div>
+        <div class="p-2 flex-fill" id="part4"></div>
+    </div>
+</main>
+<div class="parte-final">
+    <p>Escribe tu mail debajo para poder recibir el codigo de acceso con el que pagaras tus entradas en taquilla o en las dispensadoras.</p>
+    <form id="formularioFinal">
+        <div class="formMail">
+            <label for="email"> Email *</label>
+            <input class="input" type="text" id="email" name="email" />
+            <p id="notificacionEmail" class="notificacion hide"></p>
+        </div>
+        <div class="formFinal flex" id="codigo">
+            <button class="button" type="submit"> Enviar codigo </button>
+            <div id="part7"></div>
+        </div>
+    </form>
+
+</div>
+    <!-- <div class="barra1"> Seleccionaste la pelicula: </div>
+    <div id="part1"></div>
+    <div class="barra1"> Seleccionaste la funcion de las: </div>
+    <div id="part2"></div>
+    <div class="barra1"> Vas a comprar: </div>
+    <div id="part3"></div>
+    <br>
+    <div class="barra1"> El total a pagar por entradas es: </div>
+    <div id="part4"></div> -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous" defer></script>
+    <script src="../datos.js"></script>
+    <script src="../main.js"></script>
+    <script src="../app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous" defer></script>
+</body>
+</html>

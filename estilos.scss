@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Cine;
+    src:url(fuente/FilmLetters.ttf);
+    font-style: normal;
+}
+@font-face{
+    font-family: Titulos;
+    src: url(fuente/Cinemair\ Regular.ttf);
+    font-style: normal;
+}
+@font-face{
+    font-family: Contenidos;
+    src: url(fuente/Times\ New\ Romance.ttf);
+    font-style: normal;
+}
+
+
+header{
+    background-size: 100% 100%;
+    object-fit: cover;
+    height: 120px;
+    background-color: #bfc6ca;
+    background-image: url(./imagen/Rollo\ de\ cine.webp), linear-gradient(270deg, #bfc6ca 0%, #eaf1f0 24%, #f4f5ef 49%, #ffffff 75%, #ffffff 100%);
+
+}
+
+header h1{
+    font-family: "Cine";
+    padding-top: 2px;
+    padding-left: 15px;
+    font-size: 85px;
+    letter-spacing: normal;
+    color: #06090d;
+    text-shadow: 1px 1px 2px rgb(245, 245, 241), 0 0 5rem rgb(250, 246, 246), 0 0 0.2em rgb(248, 244, 244);
+}
+
+header p{
+    color: rgb(253, 239, 52);
+    font-size: 30px;
+    font-family: "Titulos";
+    margin-top: -35px;
+    padding-left: 45px;
+    text-shadow: 1px 1px 2px rgb(17, 17, 17), 0 0 5rem rgb(246, 6, 6), 0 0 0.2em rgb(202, 16, 3);
+}
+
+.marquee {
+    font-size: 30px;
+    font-family: "Titulos";
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: blue;
+    text-shadow: 1px 1px 2px rgb(238, 3, 3), 0 0 5rem rgb(17, 17, 4), 0 0 0.2em rgb(202, 202, 3);
+}
+
+div h2 {
+    font-family: "Titulos";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: white;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px rgb(0, 0, 4), 0 0 5rem rgb(14, 9, 1), 0 0 0.2em rgb(15, 2, 2);
+    background-color: #0a4f78;
+    background-image: linear-gradient(90deg, #0a4f78 0%, #1533f3 33%, #55cc30 66%, #90972a 100%);
+    
+}
+
+.cartelera{
+    border: 5px solid red;
+
+    .btn1, .btn4, .btn6, .btn8, .btn10{
+        background-color: rgb(255, 0, 0) !important;
+        height: 7px !important;
+    }
+    .btn2, .btn3, .btn5, .btn7, .btn9 {
+        background-color: rgb(251, 251, 251) !important;
+        height: 7px !important;
+    }
+}
+.carrusel-texto{
+    p {
+        padding-top: 150px !important;
+        color: rgb(246, 244, 244);
+        font-weight: bolder;
+        font-family: "Contenidos";
+        font-size: 25px;
+        text-shadow: 1px 1px 2px rgb(15, 11, 11), 0 0 5rem rgb(17, 17, 4), 0 0 0.2em rgb(202, 202, 3);
+        
+    }
+}
+.subir{
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    background-color: rgb(15, 16, 101);
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+footer{
+    background-color:black;
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    font-family:"Arabica";
+    margin-bottom: 20px;
+    p{
+        margin-top: 10px;
+        color:white;
+        font-family: "Titulos";
+        font-size: 30px;
+    
+    }
+    .Aviso{
+        margin-top: 10px;
+        
+        text-transform: uppercase;
+        
+    }
+    .Redes{
+        margin-top: 10px;
+        letter-spacing: 5px;
+        color:rgb(114, 230, 253);
+        text-shadow: 1px 1px 2px rgb(26, 18, 247), 0 0 5rem rgb(17, 17, 4), 0 0 0.2em rgb(15, 15, 1);
+    }
+}
+
+.seleccion{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-top: 30px;
+    margin-left: 5px;
+    gap: 10px;
+    flex-flow: column;
+    background-color: #4158D0;
+    background-image: linear-gradient(123deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: "Titulos";
+    text-shadow: 1px 1px 2px rgb(26, 18, 247), 0 0 5rem rgb(17, 17, 4), 0 0 0.2em rgb(15, 15, 1);
+    .sub1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row;  
+    }
+    .peliculas{
+        font-family: "Contenidos";
+        font-size: 25px;
+    }
+    .boton{
+        background-color: rgb(68, 68, 242);
+        color: whitesmoke;
+        margin-bottom: 10px;
+    }
+    .fnc1{
+        margin-top: 10px;
+    }
+    .concepto{
+        text-decoration: underline;
+    }
+    a{
+        text-decoration: none ;
+        color: whitesmoke;
+        font-size: 30px;
+        font-family: "Titulos";
+    }
+
+}
+
+.resumen-subtitulo{
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    margin-top: 5px;
+    text-shadow: 1px 1px 2px rgb(7, 7, 13), 0 0 5rem rgb(17, 17, 4), 0 0 0.2em rgb(15, 15, 1);
+    font-weight: none;
+}
+
+.resumen-entradas {
+    background-image: url(./imagen/Sala\ de\ cine.jpg);
+    object-fit: cover;
+    display: flex;
+    flex-flow:column;
+    flex-shrink: 20px;
+    background-size: 100% 100%;
+    justify-content: center;
+    align-items: center;
+    .barra1{
+        padding-top: 5px;
+        margin-top: 10px;
+        margin-left: 15px;
+        font-size: 40px;
+        font-weight: bolder;
+        font-family: "Titulos";
+        color: rgb(229, 250, 5);
+        text-shadow: 2px 2px 4px rgb(248, 8, 8), 0 0 5rem rgb(246, 246, 242), 0 0 0.2em rgb(19, 16, 16);
+    }
+
+    #part1 {
+        color: rgb(249, 244, 244);
+        padding-top: 30px;
+        margin-top: 10px;
+        margin-left: 15px;
+        font-size: 40px;
+        font-weight: bolder;
+        font-family: "Contenidos";
+        text-shadow: 1px 1px 2px rgb(7, 7, 6), 0 0 5rem rgb(17, 17, 4), 0 0 0.2em rgb(253, 5, 5);
+    }
+    #part2, #part3, #part4 {@extend #part1}
+}
+
+.parte-final {
+    font-family: "Titulos";
+    font-size: 30px;
+    background-color: #055d8e;
+    background-image: linear-gradient(180deg, #055d8e 0%, #0a979f 33%, #4ccadd 66%, #9fdddf 100%);
+    margin-top: 5px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(253, 244, 244);
+    text-shadow: 1px 1px 2px rgb(249, 7, 7), 0 0 5rem rgb(17, 17, 4), 0 0 0.2em rgb(247, 243, 243);
+    align-items: center;
+    text-align: center;
+    #part7{
+        p{
+        color: white;
+        text-shadow: 1px 1px 2px rgb(2, 13, 14), 0 0 5rem rgb(255, 255, 255), 0 0 0.2em rgb(247, 243, 243);}
+    }
+    .formMail{
+        text-shadow: 1px 1px 2px rgb(242, 30, 30), 0 0 5rem rgb(17, 17, 4), 0 0 0.2em rgb(247, 243, 243);
+    }
+    #formularioFinal{
+        color: rgb(15, 2, 2);
+        display: flex;
+        flex-flow:column;
+        align-items: center;
+        margin-top: 10px;
+        font-family: "Titulos";
+        font-size: 30px;
+        button{
+            font-family: "Titulos";
+            background-color: none;
+            margin-bottom: 10px;
+        }
+        #email {
+            font-size: 27px;
+            font-family: "Contenidos";
+        }
+    }
+
+}
+
+

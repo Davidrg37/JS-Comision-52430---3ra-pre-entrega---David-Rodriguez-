@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="./imagen/Tira de cine.webp" type="image/x-icon">
+    <title> Multicines </title>
+</head>
+<header>
+    <h1> MULTICINES </h1>
+    <p> Más que un cine, una forma de entretenimiento </p>
+</header>
+<body>
+  <div>
+    <marquee direction="slide" behavior="alternate" class="marquee">
+      Los precios de nuestros boletos son:
+      Entrada 2D: 3000$ -
+      Entrada 3D: 4000$ -
+      Entrada 4D: 6000$ -
+      Entrada Imax: 7500$
+    </marquee>
+  </div>
+  <div>
+    <h2 class="subtitulo"> Ven con nosotros a disfrutar de nuestras peliculas en cartelera </h2>
+  </div>
+  <section class="cartelera">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+    <div class="carousel-indicators"> 
+      <!-- //Aca los botones// -->
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active btn1" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" class="active btn2" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" class="active btn3" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" class="active btn4" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" class="active btn5" aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" class="active btn6" aria-label="Slide 6"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6" class="active btn7" aria-label="Slide 7"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="7" class="active btn8" aria-label="Slide 8"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="8" class="active btn9" aria-label="Slide 9"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="9" class="active btn10" aria-label="Slide 10"></button>
+    </div>
+    <div class="carousel-inner">
+      <!-- //Aca las imagenes// -->
+      <div class="carousel-item active " data-bs-interval="10000">
+        <img src="./imagen/Air.jpg" class="d-block w-100" height="550px" width="200px">
+        <div class="carousel-caption d-none d-md-block carrusel-texto">
+          <p class="Air"> La historia que cambio el marketing deportivo.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="./imagen/Elementos.webp" class="d-block w-100" height="550px"  width="200px">
+        <div class="carousel-caption d-none d-md-block carrusel-texto">
+          <p> La vida en ciudad elementos nunca será igual después de esta aventura.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./imagen/The Flas v2.avif" class="d-block w-100" height="550px"  width="200px">
+        <div class="carousel-caption d-none d-md-block carrusel-texto">
+          <p> ¿ Que pasaría si pudieramos cambiar algo de nuestro pasado?.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./imagen/Evil Dead.jpg" class="d-block w-100" height="550px"  width="200px">
+        <div class="carousel-caption d-none d-md-block carrusel-texto">
+          <p> Mamá siempre estará para cuidarte, así sea desde el otro mundo.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./imagen/GOTG.jpg" class="d-block w-100" height="550px"  width="200px">
+        <div class="carousel-caption d-none d-md-block carrusel-texto">
+          <!-- <p> La galaxia necesitara a sus guardianes una vez más.</p> -->
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./imagen/Transformers.jpg" class="d-block w-100" height="550px"  width="200px">
+        <div class="carousel-caption d-none d-md-block carrusel-texto">
+          <p> La batalla por la tierra necesitara a más aliados.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./imagen/Indy 2.avif" class="d-block w-100" height="550px"  width="200px">
+        <div class="carousel-caption d-none d-md-block carrusel-texto">
+          <p> El arqueologo más famoso del mundo en nueva aventura.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./imagen/Boogeyman 2.jpeg" class="d-block w-100" height="550px"  width="200px">
+        <div class="carousel-caption d-none d-md-block carrusel-texto">
+          <!-- <p> Tu sufrimiento atrae entidades que no esperabas.</p> -->
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./imagen/Super Mario Brps.jpg" class="d-block w-100" height="550px"  width="200px">
+        <div class="carousel-caption d-none d-md-block carrusel-texto">
+          <p>  Mario y una nueva aventura, pero esta vez en pantalla grande.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./imagen/Hazme el favor 2.webp" class="d-block w-100" height="550px" width="200px">
+        <div class="carousel-caption d-none d-md-block carrusel-texto">
+          <p> Ella necesita un auto. Él una novia.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="seleccion">
+  <form id="formularioContacto">
+  <div class="sub1" >
+      <label class="concepto" for="lang"> Escoge la pelicula que vas a ver </label>
+      <select name="peliculas" class="peliculas" id="opciones"></select>
+  </div>
+  <div id="funcionesDisponibles"> </div>
+  <div class="sub2">
+    <label class="concepto" for="lang"> Escoge la funcion </label>
+    <select name="peliculas" id="lang" class="peliculas" aria-valuetext="17:30"></select>
+  </div>
+  <div class="sub3">
+    <label class="concepto" for="lang"> Cantidad de entradas </label>
+    <input type="number" class="peliculas" aria-label="Amount (to the nearest dollar)" id="cantidad"/>
+  </div>
+  <div class="formGroup flex">
+   <button class="boton btn-primary casilla-comprar button" type="submit" id="comprar"> Comprar ya! </button>
+  </div>
+ </form>
+
+</div>
+<a href="#" class="subir">
+  <i class="fa-solid fa-circle-up"></i>
+</a>
+<footer>
+  <p class="Anuncio"> Todos las imagenes presentadas están de acuerdo con los copyright de cada distribuidora.</p>
+  <p class="Anuncio"> Todos los horarios son de acuerdo con la distribuidora para la región de cada filmación.</p>
+  <p> Para estar al tanto de más novedades sobre las camisetas de otras selecciones, seguinos en nuestras redes. </p>
+  <div class="Redes">
+  <i class="fa-brands fa-facebook"><a href="https://es-la.facebook.com/"></a></i>
+  <i class="fa-brands fa-instagram"><a href="https://www.instagram.com/"></a></i>
+  </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous" defer></script>
+  <script src="datos.js"></script>
+  <script src="main.js"></script>
+  <!-- <script src="app.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous" defer></script>
+  
+</body>
+</html>
